@@ -1,4 +1,4 @@
-curl http://127.0.0.1:8000/djangoapp/get_dealers/Kansas
+curl http://127.0.0.1:8000/djangoapp/fetchDealers/Kansas
 
 {
   "status": 200,
@@ -13,6 +13,116 @@ curl http://127.0.0.1:8000/djangoapp/get_dealers/Kansas
       "long": -97.3301,
       "short_name": "Toyota Wichita",
       "full_name": "Toyota Dealership of Wichita"
+    },
+    {
+      "id": 5,
+      "city": "City 5",
+      "state": "Kansas",
+      "address": "60 Street Rd",
+      "zip": "60005",
+      "lat": 30.5,
+      "long": -90.5,
+      "short_name": "Dealer 5",
+      "full_name": "Dealership 5 of Kansas"
+    },
+    {
+      "id": 10,
+      "city": "City 10",
+      "state": "Kansas",
+      "address": "120 Street Rd",
+      "zip": "60010",
+      "lat": 31.0,
+      "long": -91.0,
+      "short_name": "Dealer 10",
+      "full_name": "Dealership 10 of Kansas"
+    },
+    {
+      "id": 15,
+      "city": "City 15",
+      "state": "Kansas",
+      "address": "180 Street Rd",
+      "zip": "60015",
+      "lat": 31.5,
+      "long": -91.5,
+      "short_name": "Dealer 15",
+      "full_name": "Dealership 15 of Kansas"
+    },
+    {
+      "id": 20,
+      "city": "City 20",
+      "state": "Kansas",
+      "address": "240 Street Rd",
+      "zip": "60020",
+      "lat": 32.0,
+      "long": -92.0,
+      "short_name": "Dealer 20",
+      "full_name": "Dealership 20 of Kansas"
+    },
+    {
+      "id": 25,
+      "city": "City 25",
+      "state": "Kansas",
+      "address": "300 Street Rd",
+      "zip": "60025",
+      "lat": 32.5,
+      "long": -92.5,
+      "short_name": "Dealer 25",
+      "full_name": "Dealership 25 of Kansas"
+    },
+    {
+      "id": 30,
+      "city": "City 30",
+      "state": "Kansas",
+      "address": "360 Street Rd",
+      "zip": "60030",
+      "lat": 33.0,
+      "long": -93.0,
+      "short_name": "Dealer 30",
+      "full_name": "Dealership 30 of Kansas"
+    },
+    {
+      "id": 35,
+      "city": "City 35",
+      "state": "Kansas",
+      "address": "420 Street Rd",
+      "zip": "60035",
+      "lat": 33.5,
+      "long": -93.5,
+      "short_name": "Dealer 35",
+      "full_name": "Dealership 35 of Kansas"
+    },
+    {
+      "id": 40,
+      "city": "City 40",
+      "state": "Kansas",
+      "address": "480 Street Rd",
+      "zip": "60040",
+      "lat": 34.0,
+      "long": -94.0,
+      "short_name": "Dealer 40",
+      "full_name": "Dealership 40 of Kansas"
+    },
+    {
+      "id": 45,
+      "city": "City 45",
+      "state": "Kansas",
+      "address": "540 Street Rd",
+      "zip": "60045",
+      "lat": 34.5,
+      "long": -94.5,
+      "short_name": "Dealer 45",
+      "full_name": "Dealership 45 of Kansas"
+    },
+    {
+      "id": 50,
+      "city": "City 50",
+      "state": "Kansas",
+      "address": "600 Street Rd",
+      "zip": "60050",
+      "lat": 35.0,
+      "long": -95.0,
+      "short_name": "Dealer 50",
+      "full_name": "Dealership 50 of Kansas"
     }
   ]
 }
