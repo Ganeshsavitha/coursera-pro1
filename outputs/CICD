@@ -1,19 +1,25 @@
-Run actions/checkout@v4
-actions/checkout@v4 completed successfully.
-Run actions/setup-python@v5
-Python 3.10 configured successfully.
-Run pip install -r requirements.txt
-Successfully installed django-6.0.3 gunicorn-22.0.0 requests-2.34.2
-Run python server/manage.py check
-System check identified no issues (0 silenced).
-Run actions/setup-node@v4
-Node.js 18 configured successfully.
-Run npm install && npm run build
-added 95 packages, and audited 96 packages
-vite v5.4.21 building for production...
-✓ 92 modules transformed.
-static/index.html                   0.54 kB
-static/assets/index-CXRQDwrz.css    7.49 kB
-static/assets/index-CV2nh2oS.js   226.90 kB
-✓ built in 1.59s
-All workflow checks passed successfully.
+✓ main Lint Code · 18836357268
+✓ Lint Python Files in 16s (ID 53738140285)
+✓ Lint JavaScript Files in 11s (ID 53738140290)
+
+Job: Lint Python Files (ID 53738140285)
+Duration: 16s
+✓ Set up job
+✓ Checkout Repository
+✓ Set up Python
+✓ Install dependencies
+✓ Run Linter
+✓ Post Set up Python
+✓ Post Checkout Repository
+✓ Complete job
+
+Job: Lint JavaScript Files (ID 53738140290)
+Duration: 11s
+✓ Set up job
+✓ Checkout Repository
+✓ Install Node.js
+✓ Install JSHint
+✓ Run Linter
+✓ Post Set up Node.js
+✓ Post Checkout Repository
+✓ Complete job
