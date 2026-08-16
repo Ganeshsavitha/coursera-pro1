@@ -60,9 +60,8 @@ def login_user(request):
 
 @csrf_exempt
 def logout_request(request):
-    username = request.user.username if request.user.is_authenticated else ""
     logout(request)
-    return JsonResponse({"userName": username})
+    return JsonResponse({"userName": ""})
 
 @csrf_exempt
 def registration(request):
