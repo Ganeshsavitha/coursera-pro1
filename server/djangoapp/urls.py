@@ -25,4 +25,5 @@ urlpatterns = [
     
     # Sentiment
     path('analyze', views.analyze_sentiment, name='analyze_sentiment'),
+    path('analyze/<str:text>', views.analyze_sentiment_get, name='analyze_sentiment_get'),
 ]

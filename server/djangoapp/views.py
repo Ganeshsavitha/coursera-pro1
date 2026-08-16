@@ -206,3 +206,7 @@ def analyze_sentiment(request):
         
     sentiment = analyze_sentiment_text(text)
     return JsonResponse({"status": 200, "sentiment": sentiment})
+
+def analyze_sentiment_get(request, text):
+    sentiment = analyze_sentiment_text(text)
+    return JsonResponse({"status": 200, "sentiment": sentiment})
