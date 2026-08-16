@@ -7,11 +7,11 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # 1. Create Superuser if not exists
-        if not User.objects.filter(username='admin').exists():
-            User.objects.create_superuser('admin', 'admin@example.com', 'adminpassword')
-            self.stdout.write(self.style.SUCCESS('Superuser "admin" created.'))
+        if not User.objects.filter(username='root').exists():
+            User.objects.create_superuser('root', 'root@example.com', 'adminpassword')
+            self.stdout.write(self.style.SUCCESS('Superuser "root" created.'))
         else:
-            self.stdout.write('Superuser "admin" already exists.')
+            self.stdout.write('Superuser "root" already exists.')
 
         # Clear existing data to avoid duplicates
         CarModel.objects.all().delete()
