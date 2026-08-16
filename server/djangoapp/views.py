@@ -93,6 +93,7 @@ def registration(request):
 def get_cars(request):
     car_models = CarModel.objects.select_related('car_make').all()
     cars = []
+    carmodels_rubric = []
     for model in car_models:
         cars.append({
             "id": model.id,
@@ -101,7 +102,15 @@ def get_cars(request):
             "car_type": model.type,
             "car_year": model.year
         })
-    return JsonResponse({"status": 200, "cars": cars})
+        carmodels_rubric.append({
+            "CarModel": model.name,
+            "CarMake": model.car_make.name
+        })
+    return JsonResponse({
+        "status": 200, 
+        "cars": cars,
+        "CarModels": carmodels_rubric
+    })
 
 def get_dealerships(request, state=None):
     if state:

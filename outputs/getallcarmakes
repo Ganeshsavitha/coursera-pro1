@@ -4,53 +4,182 @@ curl http://127.0.0.1:8000/djangoapp/get_cars
   "status": 200,
   "cars": [
     {
-      "id": 1,
+      "id": 29,
       "car_make": "Toyota",
       "car_model": "Camry",
       "car_type": "Sedan",
       "car_year": 2021
     },
     {
-      "id": 2,
+      "id": 30,
       "car_make": "Toyota",
       "car_model": "RAV4",
       "car_type": "SUV",
       "car_year": 2022
     },
     {
-      "id": 3,
+      "id": 31,
+      "car_make": "Toyota",
+      "car_model": "Corolla",
+      "car_type": "Sedan",
+      "car_year": 2021
+    },
+    {
+      "id": 32,
+      "car_make": "Toyota",
+      "car_model": "Prius",
+      "car_type": "Hatchback",
+      "car_year": 2022
+    },
+    {
+      "id": 33,
+      "car_make": "Toyota",
+      "car_model": "Highlander",
+      "car_type": "SUV",
+      "car_year": 2021
+    },
+    {
+      "id": 34,
       "car_make": "Ford",
       "car_model": "Mustang",
       "car_type": "Convertible",
       "car_year": 2020
     },
     {
-      "id": 4,
+      "id": 35,
       "car_make": "Ford",
       "car_model": "F-150",
       "car_type": "Pickup",
       "car_year": 2022
     },
     {
-      "id": 5,
+      "id": 36,
+      "car_make": "Ford",
+      "car_model": "Explorer",
+      "car_type": "SUV",
+      "car_year": 2021
+    },
+    {
+      "id": 37,
+      "car_make": "Ford",
+      "car_model": "Escape",
+      "car_type": "SUV",
+      "car_year": 2022
+    },
+    {
+      "id": 38,
       "car_make": "Honda",
       "car_model": "Accord",
       "car_type": "Sedan",
       "car_year": 2021
     },
     {
-      "id": 6,
+      "id": 39,
       "car_make": "Honda",
       "car_model": "CR-V",
       "car_type": "SUV",
       "car_year": 2022
     },
     {
-      "id": 7,
+      "id": 40,
+      "car_make": "Honda",
+      "car_model": "Civic",
+      "car_type": "Sedan",
+      "car_year": 2022
+    },
+    {
+      "id": 41,
+      "car_make": "Honda",
+      "car_model": "Pilot",
+      "car_type": "SUV",
+      "car_year": 2021
+    },
+    {
+      "id": 42,
       "car_make": "Chevrolet",
       "car_model": "Corvette",
       "car_type": "Convertible",
       "car_year": 2023
+    },
+    {
+      "id": 43,
+      "car_make": "Chevrolet",
+      "car_model": "Silverado",
+      "car_type": "Pickup",
+      "car_year": 2022
+    },
+    {
+      "id": 44,
+      "car_make": "Chevrolet",
+      "car_model": "Malibu",
+      "car_type": "Sedan",
+      "car_year": 2021
+    }
+  ],
+  "CarModels": [
+    {
+      "CarModel": "Camry",
+      "CarMake": "Toyota"
+    },
+    {
+      "CarModel": "RAV4",
+      "CarMake": "Toyota"
+    },
+    {
+      "CarModel": "Corolla",
+      "CarMake": "Toyota"
+    },
+    {
+      "CarModel": "Prius",
+      "CarMake": "Toyota"
+    },
+    {
+      "CarModel": "Highlander",
+      "CarMake": "Toyota"
+    },
+    {
+      "CarModel": "Mustang",
+      "CarMake": "Ford"
+    },
+    {
+      "CarModel": "F-150",
+      "CarMake": "Ford"
+    },
+    {
+      "CarModel": "Explorer",
+      "CarMake": "Ford"
+    },
+    {
+      "CarModel": "Escape",
+      "CarMake": "Ford"
+    },
+    {
+      "CarModel": "Accord",
+      "CarMake": "Honda"
+    },
+    {
+      "CarModel": "CR-V",
+      "CarMake": "Honda"
+    },
+    {
+      "CarModel": "Civic",
+      "CarMake": "Honda"
+    },
+    {
+      "CarModel": "Pilot",
+      "CarMake": "Honda"
+    },
+    {
+      "CarModel": "Corvette",
+      "CarMake": "Chevrolet"
+    },
+    {
+      "CarModel": "Silverado",
+      "CarMake": "Chevrolet"
+    },
+    {
+      "CarModel": "Malibu",
+      "CarMake": "Chevrolet"
     }
   ]
 }

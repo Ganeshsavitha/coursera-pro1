@@ -29,11 +29,20 @@ class Command(BaseCommand):
         # 3. Seed Car Models
         CarModel.objects.create(car_make=toyota, name="Camry", type="Sedan", year=2021)
         CarModel.objects.create(car_make=toyota, name="RAV4", type="SUV", year=2022)
+        CarModel.objects.create(car_make=toyota, name="Corolla", type="Sedan", year=2021)
+        CarModel.objects.create(car_make=toyota, name="Prius", type="Hatchback", year=2022)
+        CarModel.objects.create(car_make=toyota, name="Highlander", type="SUV", year=2021)
         CarModel.objects.create(car_make=ford, name="Mustang", type="Convertible", year=2020)
         CarModel.objects.create(car_make=ford, name="F-150", type="Pickup", year=2022)
+        CarModel.objects.create(car_make=ford, name="Explorer", type="SUV", year=2021)
+        CarModel.objects.create(car_make=ford, name="Escape", type="SUV", year=2022)
         CarModel.objects.create(car_make=honda, name="Accord", type="Sedan", year=2021)
         CarModel.objects.create(car_make=honda, name="CR-V", type="SUV", year=2022)
+        CarModel.objects.create(car_make=honda, name="Civic", type="Sedan", year=2022)
+        CarModel.objects.create(car_make=honda, name="Pilot", type="SUV", year=2021)
         CarModel.objects.create(car_make=chevrolet, name="Corvette", type="Convertible", year=2023)
+        CarModel.objects.create(car_make=chevrolet, name="Silverado", type="Pickup", year=2022)
+        CarModel.objects.create(car_make=chevrolet, name="Malibu", type="Sedan", year=2021)
 
         self.stdout.write(self.style.SUCCESS('Car makes and models seeded.'))
 
