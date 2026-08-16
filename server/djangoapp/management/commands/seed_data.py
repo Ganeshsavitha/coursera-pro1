@@ -37,7 +37,7 @@ class Command(BaseCommand):
 
         self.stdout.write(self.style.SUCCESS('Car makes and models seeded.'))
 
-        # 4. Seed Dealers
+        # 4. Seed 50 Dealers (Keeping Wichita, Austin, and Seattle as first 3)
         Dealer.objects.create(
             id=1,
             city="Wichita",
@@ -72,7 +72,24 @@ class Command(BaseCommand):
             full_name="Honda Dealership of Seattle"
         )
 
-        self.stdout.write(self.style.SUCCESS('Dealers seeded.'))
+        # Seed remaining 47 dealers to make a total of 50
+        for i in range(4, 51):
+            state_choices = ["Kansas", "Texas", "California", "New York", "Florida"]
+            state = state_choices[i % len(state_choices)]
+            city = f"City {i}"
+            Dealer.objects.create(
+                id=i,
+                city=city,
+                state=state,
+                address=f"{i * 12} Street Rd",
+                zip=f"{60000 + i}",
+                lat=30.0 + (i * 0.1),
+                long=-90.0 - (i * 0.1),
+                short_name=f"Dealer {i}",
+                full_name=f"Dealership {i} of {state}"
+            )
+
+        self.stdout.write(self.style.SUCCESS('50 Dealers seeded.'))
 
         # 5. Seed Reviews
         Review.objects.create(
