@@ -98,7 +98,7 @@ function DealerDetails({ user }) {
                       </span>
                     )}
                   </div>
-                  <p className="review-text">"{review.review_text}"</p>
+                  <p className="review-text">"{review.review}"</p>
                 </div>
                 <div className="review-meta">
                   <p><strong>Reviewed by:</strong> {review.name}</p>
