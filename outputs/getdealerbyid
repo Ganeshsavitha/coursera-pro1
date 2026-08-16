@@ -1,4 +1,4 @@
-curl http://127.0.0.1:8000/djangoapp/dealer/1
+curl http://127.0.0.1:8000/djangoapp/fetchDealer/1
 
 {
   "status": 200,
