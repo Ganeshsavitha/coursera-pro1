@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dealership-web
+  labels:
+    app: dealership
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dealership
+  template:
+    metadata:
+      labels:
+        app: dealership
+    spec:
+      containers:
+      - name: dealership
+        image: ganeshsavitha/dealership:latest
+        ports:
+        - containerPort: 8000
+        imagePullPolicy: IfNotPresent

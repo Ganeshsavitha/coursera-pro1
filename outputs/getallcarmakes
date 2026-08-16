@@ -1,0 +1,56 @@
+curl http://127.0.0.1:8000/djangoapp/get_cars
+
+{
+  "status": 200,
+  "cars": [
+    {
+      "id": 1,
+      "car_make": "Toyota",
+      "car_model": "Camry",
+      "car_type": "Sedan",
+      "car_year": 2021
+    },
+    {
+      "id": 2,
+      "car_make": "Toyota",
+      "car_model": "RAV4",
+      "car_type": "SUV",
+      "car_year": 2022
+    },
+    {
+      "id": 3,
+      "car_make": "Ford",
+      "car_model": "Mustang",
+      "car_type": "Convertible",
+      "car_year": 2020
+    },
+    {
+      "id": 4,
+      "car_make": "Ford",
+      "car_model": "F-150",
+      "car_type": "Pickup",
+      "car_year": 2022
+    },
+    {
+      "id": 5,
+      "car_make": "Honda",
+      "car_model": "Accord",
+      "car_type": "Sedan",
+      "car_year": 2021
+    },
+    {
+      "id": 6,
+      "car_make": "Honda",
+      "car_model": "CR-V",
+      "car_type": "SUV",
+      "car_year": 2022
+    },
+    {
+      "id": 7,
+      "car_make": "Chevrolet",
+      "car_model": "Corvette",
+      "car_type": "Convertible",
+      "car_year": 2023
+    }
+  ]
+}

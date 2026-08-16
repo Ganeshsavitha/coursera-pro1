@@ -1,0 +1,31 @@
+curl http://127.0.0.1:8000/djangoapp/reviews/dealer/1
+
+{
+  "status": 200,
+  "reviews": [
+    {
+      "id": 1,
+      "dealer_id": 1,
+      "name": "Alice Smith",
+      "purchase": true,
+      "review_text": "Fantastic services! The sales representatives were very polite and the processing was quick.",
+      "purchase_date": "2026-08-10",
+      "car_make": "Toyota",
+      "car_model": "Camry",
+      "car_year": 2021,
+      "sentiment": "positive"
+    },
+    {
+      "id": 2,
+      "dealer_id": 1,
+      "name": "Bob Jones",
+      "purchase": false,
+      "review_text": "Average dealership experience. Clean showroom but waiting times for service were slightly long.",
+      "purchase_date": null,
+      "car_make": null,
+      "car_model": null,
+      "car_year": null,
+      "sentiment": "neutral"
+    }
+  ]
+}

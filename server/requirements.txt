@@ -1,0 +1,7 @@
+django>=4.0
+gunicorn
+requests
+django-cors-headers
+asgiref
+sqlparse
+tzdata

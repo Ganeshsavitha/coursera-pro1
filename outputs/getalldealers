@@ -1,0 +1,40 @@
+curl http://127.0.0.1:8000/djangoapp/get_dealers
+
+{
+  "status": 200,
+  "dealers": [
+    {
+      "id": 1,
+      "city": "Wichita",
+      "state": "Kansas",
+      "address": "123 Wichita Dr",
+      "zip": "67201",
+      "lat": 37.6872,
+      "long": -97.3301,
+      "short_name": "Toyota Wichita",
+      "full_name": "Toyota Dealership of Wichita"
+    },
+    {
+      "id": 2,
+      "city": "Austin",
+      "state": "Texas",
+      "address": "456 Austin Blvd",
+      "zip": "78701",
+      "lat": 30.2672,
+      "long": -97.7431,
+      "short_name": "Ford Austin",
+      "full_name": "Ford Dealership of Austin"
+    },
+    {
+      "id": 3,
+      "city": "Seattle",
+      "state": "Washington",
+      "address": "789 Seattle Way",
+      "zip": "98101",
+      "lat": 47.6062,
+      "long": -122.3321,
+      "short_name": "Honda Seattle",
+      "full_name": "Honda Dealership of Seattle"
+    }
+  ]
+}
